@@ -1072,45 +1072,31 @@ echo -e "\e[0;32m Validity Script     : $exp"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
 echo -e "\E[47;1;30m               ⇱ • SSH  MENU • ⇲                  \E[33m"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•1\e[33m ] Add Ssh User          [\e[35m•4\e[33m ] Delete User"
-echo -e " [\e[35m•2\e[33m ] All Ssh User          [\e[35m•5\e[33m ] Extend Ssh" 
-echo -e " [\e[35m•3\e[33m ] Delete Ssh            [\e[35m•6\e[33m ] Check User Login"
+echo -e " [\e[35m•1\e[33m ] Add Ssh User       [\e[35m•4\e[33m ] Delete User"
+echo -e " [\e[35m•2\e[33m ] All Ssh User       [\e[35m•5\e[33m ] Extend Ssh" 
+echo -e " [\e[35m•3\e[33m ] Delete Ssh         [\e[35m•6\e[33m ] Check User Login"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
 echo -e "\E[47;1;30m               ⇱ • XRAY MENU • ⇲                  \E[33m"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•7\e[33m ] Add XRay VMess          [\e[35m•11\e[33m] Add XRay VLess"
-echo -e " [\e[35m•8\e[33m ] Delete XRay VMess          [\e[35m•12\e[33m] Delete XRay VLess"
-echo -e " [\e[35m•9\e[33m ] Extend XRay Vmess          [\e[35m•13\e[33m] Extend XRay VLess"
-echo -e " [\e[35m•10\e[33m] Check User Login          [\e[35m•14\e[33m] Check User Login"
+echo -e " [\e[35m•7\e[33m ] Add XRay VMess     [\e[35m•11\e[33m] Add XRay VLess"
+echo -e " [\e[35m•8\e[33m ] Delete XRay VMess  [\e[35m•12\e[33m] Delete XRay VLess"
+echo -e " [\e[35m•9\e[33m ] Extend XRay Vmess  [\e[35m•13\e[33m] Extend XRay VLess"
+echo -e " [\e[35m•10\e[33m] Check User Login   [\e[35m•14\e[33m] Check User Login"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•11\e[33m] Add XRay VLess"
-echo -e " [\e[35m•12\e[33m] Delete XRay VLess"
-echo -e " [\e[35m•13\e[33m] Extend XRay VLess"
-echo -e " [\e[35m•14\e[33m] Check User Login"
-echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•15\e[33m] Add XRay XTLS"
-echo -e " [\e[35m•16\e[33m] Delete XRay XTLS"
-echo -e " [\e[35m•17\e[33m] Extend XRay XTLS"
-echo -e " [\e[35m•18\e[33m] Check User Login"
-echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•19\e[33m] Add XRay Trojan"
-echo -e " [\e[35m•20\e[33m] Delete XRay TRojan"
-echo -e " [\e[35m•21\e[33m] Extend XRay TRojan"
-echo -e " [\e[35m•22\e[33m] Check User Login"
+echo -e " [\e[35m•15\e[33m] Add XRay XTLS      [\e[35m•19\e[33m] Add XRay Trojan"
+echo -e " [\e[35m•16\e[33m] Delete XRay XTLS   [\e[35m•20\e[33m] Delete XRay TRojan"
+echo -e " [\e[35m•17\e[33m] Extend XRay XTLS   [\e[35m•21\e[33m] Extend XRay TRojan"
+echo -e " [\e[35m•18\e[33m] Check User Login   [\e[35m•22\e[33m] Check User Login"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
 echo -e "\E[47;1;30m               ⇱ • SETTING MENU • ⇲               \E[33m"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e " [\e[35m•23\e[33m] Setup DNS"
-echo -e " [\e[35m•24\e[33m] Check DNS Region"
-echo -e " [\e[35m•25\e[33m] Change VPS Domain"
-echo -e " [\e[35m•26\e[33m] Change Service Port"
-echo -e " [\e[35m•27\e[33m] Restart All Service"
-echo -e " [\e[35m•28\e[33m] Check All Port"
-echo -e " [\e[35m•29\e[33m] Backup"
-echo -e " [\e[35m•30\e[33m] Restore"
-echo -e " [\e[35m•31\e[33m] BBR Menu"
+echo -e " [\e[35m•23\e[33m] Setup DNS          [\e[35m•28\e[33m] Check All Port"
+echo -e " [\e[35m•24\e[33m] Check DNS Region   [\e[35m•29\e[33m] Backup"
+echo -e " [\e[35m•25\e[33m] Change VPS Domain  [\e[35m•30\e[33m] Restore"
+echo -e " [\e[35m•26\e[33m] Change Port        [\e[35m•31\e[33m] BBR Menu"
+echo -e " [\e[35m•27\e[33m] Restart Service    [\e[35m•32\e[33m] Usage Server"
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
-echo -e "Script By : Reyz-V4 "
+echo -e "Script By Reyz-V4 "
 menu_sts
 echo -e "\033[0;31m──────────────────────────────────────────────────\033[33m"
 echo -e ""
@@ -1243,6 +1229,9 @@ case $opt in
     clear
     tcp
     ;;
+32)
+    vnstat
+    ;;
 111)
     clear
     installer
@@ -1250,7 +1239,7 @@ case $opt in
 x) exit ;;
 *)
     echo -e ""
-    echo "Sila Pilih Semula"
+    echo "Pilih Molek Bang"
     sleep 1
     menu
     ;;
